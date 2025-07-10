@@ -3,7 +3,7 @@ import { Phone, MapPin, Instagram, Facebook, MessageSquare, FileText, Shield, Pe
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
-import AccessibilityMenu from '../components/home/AccessibilityMenu';
+import AccessibilityMenu from './Components/home/AccessibilityMenu';
 
 export default function Layout({ children }) {
   const scrollToSection = (sectionId) => {
